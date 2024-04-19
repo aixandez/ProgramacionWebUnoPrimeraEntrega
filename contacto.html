@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Amigurumis Soda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo2.png" alt="Logo de Sodamigurumis">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="https://www.instagram.com/sodamigurumi/">Instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="contact-info">
+                <h1>Información de Contacto</h1>
+                <ul>
+                    <li><strong>Domicilio:</strong> Dirección 2661</li>
+                    <li><strong>Teléfono:</strong> +1133878649</li>
+                    <li><strong>País:</strong> Argentina</li>
+                    <li><strong>Localidad:</strong> Merlo</li>
+                    <li><strong>Código Postal:</strong> 1716</li>
+                </ul>
+                <h2>WhatsApp</h2>
+                 <!-- Inserta aquí el enlace de WhatsApp -->
+                 <a href="https://wa.me/1133878649? text=¡Hola! Quiero consultar el costo de un muñequito." target="_blank">Contactar por WhatsApp</a>
+            </div>
+            <div class="contact-form">
+                <h1>Envíanos tu Consulta</h1>
+                <form form method="post" action="enviaar.php">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section class="map">
+            <!-- Coloca aquí tu mapa de Google Maps o código de mapa interactivo -->
+            
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5934056243345!2d-58.70198852499669!3d-34.664969972932376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf86ef457285%3A0xd8055b178c177d4c!2sUniversidad%20Nacional%20del%20Oeste!5e0!3m2!1ses!2sar!4v1695747016879!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+</body>
+</html>
