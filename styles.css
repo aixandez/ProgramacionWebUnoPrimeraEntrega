@@ -27,7 +27,9 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    
 }
+
 
 /* Estilo del logo */
 .logo {
@@ -51,7 +53,11 @@ nav ul li a:hover {
     color: #c43dc9; /* Cambia el color al pasar el mouse por encima */
 }
 
+.links img{
 
+    width: 20px;
+    height: auto;
+}
 
 /* Estilo de la sección principal */
 main {
